@@ -1,13 +1,75 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Mulish:wght@300;400&family=Nunito:wght@300;400;500;600&family=Oswald:wght@500&family=Poppins:wght@300;400;500;600;700;800;900&family=Quicksand:wght@500&family=Roboto:wght@300;400&family=Space+Grotesk:wght@600&display=swap");
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  text-align: center;
+  width: 25%;
+  padding: 25px 0;
+  border-radius: 8px;
+  box-shadow: 10px 10px 20px 0px #0000001e;
+  background-color: #fffad7;
+}
+input {
+  position: relative;
+  border-style: none;
+  padding: 15px;
+  font-size: medium;
+  border-radius: 5px;
+  margin-top: 15px;
+  width: 70%;
+  letter-spacing: 1px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+  padding: 8px 15px;
+  color: white;
+  background-color: blue;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: medium;
+  margin-top: 20px;
+}
+button:hover {
+  background-color: rgb(22, 22, 220);
+}
+.error{
+  text-align: center;
+  margin: auto;
+  width: 25%;
+  position: absolute;
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+  input {
+    font-size: small;
+    letter-spacing: 0;
+    width: 70%;
+  }
+  button {
+    padding: 6px 12px;
+    font-size: small;
+  }
 }
