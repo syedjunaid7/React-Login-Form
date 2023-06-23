@@ -113,7 +113,7 @@ function LoginPage() {
               <br />
               <br />
               <input
-                type="text"
+                type="password"
                 placeholder="Enter User Password"
                 onChange={passwordInput}
               />

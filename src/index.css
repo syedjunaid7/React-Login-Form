@@ -75,4 +75,8 @@ button:hover {
     padding: 6px 12px;
     font-size: small;
   }
+  .error{
+    margin-top: 2px;
+    width: 80%;
+  }
 }
