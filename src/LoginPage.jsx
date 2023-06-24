@@ -108,6 +108,7 @@ function LoginPage() {
                 type="text"
                 placeholder="Enter Id or UserId"
                 onChange={userInput}
+                autoFocus="autoFocus"
               />
               <div className="error">{userError ? "*" + errorMssg : null}</div>
               <br />
