@@ -63,7 +63,7 @@ function LoginPage() {
         }
       } else {
         setUserError(true);
-        setErrorMssg("Invalid Input");
+        setErrorMssg("Missing @, .in or .com");
       }
     }
     if (password === "") {
